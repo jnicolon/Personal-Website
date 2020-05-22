@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+#header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+    z-index: 10;
+    
+}
+
+#header-center {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    max-width: 60%;
+}
+
+
+#logo {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    margin: 0.5rem 0rem 1rem 0rem;
+    
+}
+
+#juan-logo {
+    font-size: 2rem;
+    margin: 0rem;
+    padding: 0rem;
+    
+    
+}
+
+
+#sub-logo {
+    margin: 0;
+    font-size: 0.8rem;
+    
+    
+}
+
+#menu {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    
+   
+}
+
+.menu-btn {
+    font-size: 0.7 rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    
+}
+
+
+#main {
+    margin: auto;
+   
+
+}
+
+#img-container {
+    margin: auto;
+    width: 100%;
+    
+    
+    
+}
+
+#img1 {
+    margin: auto;
+    width: 100%;
+    object-position: bottom;
+    object-fit: cover;
+    position: fixed;
+}
+
