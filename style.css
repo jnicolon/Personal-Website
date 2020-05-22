@@ -16,8 +16,12 @@ nav{
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 25px;
 
+}
+
+.logo h5{
+    font-size: 10px;
 }
 
 .nav-links {
